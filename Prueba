@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transmisión M3U8</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            border: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <video controls>
+            <source src="https://live-b.cf.dmcdn.net/sec2(rLpwKarbl1e8Ue5HuoqU3-hi5_EOjE4ujZISujMrFBuRfSkzKn_tejKDDxYItoNnxzUZ2tYYoUafXuDdsy3fmPqPZgkdrT5qk9umO5cOxsw)/dm/3/x91tbcm/d/live-720.m3u8#cell=lcfb" type="application/x-mpegURL">
+            Tu navegador no soporta reproducción de video HLS.
+        </video>
+    </div>
+</body>
+</html>
